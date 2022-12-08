@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly and that piece of art is useful
- * Return: Always 0 (Success)
+ * main - Entry
+ * Return: 1
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", S9);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", S9);
 	return (1):
 }
