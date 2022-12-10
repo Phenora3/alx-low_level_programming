@@ -8,11 +8,14 @@
 
 int main(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'z', ch >= 'a', ch--;'\n';);
+	c = 'z';
+	while
+		(c >= 'a')
 	{
-		putchar(ch);
+		putchar(c);
+		c--;
 	}
 	putchar('\n');
 	return (0);
